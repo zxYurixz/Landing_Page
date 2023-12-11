@@ -1,0 +1,62 @@
+body{
+    
+        background: url(/img/Tanjiro\ moon\ background.png)  no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        /* background: #0b011e;  */
+        border:0;
+        padding: 0;
+    
+}
+
+.menun{
+    display: flex;
+    align-items: center;
+    column-gap: 15%;
+    font-size: 166%;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 1.2% 0 0 65%;
+}
+
+.menun :hover{
+    color:#6834c9;
+    text-shadow: 0 0 15px #000;
+}
+.title-start{
+    padding-top: 15%;
+    padding-left: 5%;
+    font-size: 170%;
+    display: flex;
+}
+
+.title-start :hover{
+    transition: all 0.5s;
+    scale:1.1;
+    color:#6834c9;
+    text-shadow: 0 0 20px #000;
+}
+
+
+.Giyuu-home{
+    color:#190839 ;
+}
+
+.div-buttom-animes{
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+#buttom-animes{
+    font-size: 170%;
+    background-color: #190839 ;
+    padding: 1% 3%;
+    border-radius: 50px;
+}
+
+.div-buttom-animes :hover{
+    transition: all 0.2s;
+    scale:1.1;
+}

@@ -1,0 +1,377 @@
+@import url('https://fonts.cdnfonts.com/css/alex-2');                
+
+*{
+    margin-top: 0 ;
+    padding: 0;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+        /* CABEÇALHO (ADAPTADO) */
+
+.background-top-pages{
+    background-image: linear-gradient(to bottom, transparent 0%, #0b011e 100%), url(/img/wallpaper-tomioka.jpg);
+    background-size: 100%;
+}
+
+.cabeçalho-pages{
+    display: flex;
+    position: relative;
+    margin: 0 0 3em 0;
+}
+
+.logo-pages> a> img{
+    width:5em;
+    border: solid 1.9px #959595;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-left:2em;
+}
+
+.menu-pages{
+    display: flex;
+    align-items: center;
+    column-gap: 15%;
+    font-size: 140%;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 3.2% 0 0 57%;
+}
+
+#name-pages{
+    font-size: 1em;
+    margin-left: 2em;
+    margin-top: 2.4em;
+
+}
+
+        /* FIM CABEÇALHO */
+
+.container-flex{
+    display: flex;
+    margin: 0 3rem 0 3rem;
+}
+
+.container-list{
+    margin: 4rem 7rem 0 7rem;
+}
+
+.infos_left {
+    width: 80%;
+}
+
+.anime-genres{
+    display: flex;
+    margin: 1rem 0 1rem 2rem;
+
+}
+
+.action{
+    margin-right: 2rem;
+    padding: .4rem .4rem .4rem .6rem;
+    border: #959595 solid 0.5px  ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fantasy{
+    padding: .4rem .4rem .4rem .6rem;
+    border: #959595 solid 0.5px  ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.anime-info p, .anime-info span {
+    font-size: 100%;
+    font-weight: 300;
+    font-family: 'Alex', sans-serif;
+}
+
+.anime-info p {
+    padding-right: 3px;
+    color: #959595;
+}
+
+.anime-info span {
+    color: rgb(255, 255, 255);
+}
+
+.anime-genres~p span {
+    font-weight: 400;
+}
+
+.text-blur {
+    text-shadow: 0 0 15px #fff;
+}
+
+.anime-info h2 {
+    padding-top: 20px;
+    font-size: 2.2rem;
+    width: 90%;
+}
+
+.anime-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.anime-title h2 {
+    width: auto;
+    padding-top: 0;
+}
+
+.anime-title h3 {
+    font-size: 1rem;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.anime-title h3::before {
+    content: "-";
+    padding-right: 10px;
+}
+
+
+.anime-description {
+    font-size: 1rem;
+    max-width: 75%;
+    margin: 35px 0 10px 0;
+    height: auto;
+    max-height: 107px;
+    overflow-y: auto;
+}
+
+.infos-img {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.infos-img img {
+    border-radius: 6px;
+}
+
+.infos-img p {
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 300;
+    padding: 2px 0;
+    margin-top: 10px;
+    border-radius: 11px;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+
+.text-center{
+    text-align: center;
+}
+
+        /* LISTA DE EPISÓDIOS  */
+
+.font-zero {
+    font-size: 0%;
+    display: none;
+}
+
+.episodesList{
+    border-radius: 10px;
+}
+
+.list-group {
+    max-height: 562px;
+    overflow-y: auto;
+    height: auto;
+    border-radius:8px;
+}
+
+.list-group-item>a :hover{
+    scale: 1;
+}
+
+.list-group-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75rem 1.25rem;
+    background-color: #242327;
+    border: 1px solid rgba(52, 51, 60, 0.74);
+}
+
+.list-group-item div .btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: .9rem;
+    transition: all .6s;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0228ae;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #0228ae;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgb(2, 40, 174);
+    outline: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0228ae;
+    border-color: #005cbf;
+    box-shadow: 0 0 0 0.2rem rgb(2, 40, 174);
+    outline: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(2, 40, 174);
+}
+
+.list-group h3 {
+    font-size: 1rem;
+}
+
+.list-group-item>a {
+    display: block;
+    flex: 1;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    z-index: 1;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2d2c33;
+}
+
+.list-group-item>div a.btn-success .fa-eye-slash:before {
+    content: "\f06e";
+}
+
+.btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 3px 0 0 3px;
+}
+
+.btn-light {
+    color: #fff;
+    background: #282730;
+    border: none;
+    transition: all .6s;
+    outline: none;
+}
+
+        /* FOOTER */
+
+footer {
+    position: relative;
+    background: url(/img/Tanjiro.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+footer:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(11, 11, 14, .9) 0, rgba(11, 11, 14, .8) 22%, rgba(7, 6, 10, .7) 58%, rgba(7, 6, 10, .65) 100%);
+    left: 0;
+    top: 0;
+}
+
+footer .hover {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+    background: rgb(19, 18, 25);
+    background: linear-gradient(0deg, rgba(19, 18, 25, 0) 0%, rgba(19, 18, 25, 1) 100%);
+}
+
+.footer-logo {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-logo a {
+    font-size: 2rem;
+}
+
+.footer-logo span {
+    padding-top: 4px;
+    color: #ccc;
+    font-size: .8rem;
+}
+
+.footer-nav {
+    z-index: 1;
+}
+
+.footer-nav ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-nav ul li {
+    padding-right: 15px;
+}
+
+.footer-nav ul li a {
+    color: #e4e5f7;
+    transition: all .6s;
+}
+
+.footer-nav ul {
+    align-items: center;
+    list-style:none;
+}
+.footer-nav ul li {
+    padding-right: 2rem;
+}
+
+.footer-nav ul li a:hover {
+    color: #007aff;
+}
+
+.card {
+    background-color: #1c1c1c;
+}
+
+.social-links {
+    z-index: 1;
+    justify-content: space-around;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    opacity: .7;
+}
+
+.d-flex{
+    display:flex;
+    padding-right: 1.5rem;
+}

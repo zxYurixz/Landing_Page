@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grenze+Gotisch:wght@200;300;700&display=swap');
+
+
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+    color: #959595;
+    font-family: 'Bebas Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #0b011e; 
+    border:0;
+    padding: 0;
+}
+
+ /* GERAL */
+
+ a{
+    text-decoration: none;
+}
+
+a :hover{
+    color: white;
+    transition: all 0.2s;
+    scale:1.1;
+
+}
+ /* FIM GERAL */
+
+
+/* CABEÇALHO */
+
+
+
+.cabeçalho{
+    display: flex;
+    position: relative;
+    margin: 1.5em 0 1.2em 0;
+
+}
+
+.logo> a> img{
+    width:8.8em;
+    border: solid 3px #959595;
+    border-radius: 50%;
+    margin-left:2em;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 15%;
+    font-size: 166%;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 3.8% 0 0 57%;
+}
+
+#name{
+    font-size: 1.4em;
+    margin-left: 2em;
+    margin-top: 1.7em;
+
+}
+
+/* FIM CABEÇALHO */
+
+
+#img-início{
+    min-height: 100em;
+    
+}
+
+#img_pag{
+    width: 100%;
+}
+
+div> .manga_nomes> a{
+    font-size: 1.4em;
+    padding-bottom: 3em;
+}
+
+.bodyanime{
+    background-image: linear-gradient(to bottom, transparent 0%, #0b011e 40%), url(/img/Gojo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100em;
+
+}
+
+#ki > iframe{
+    float: left;
+    border-radius: 5%;
+    margin: 4em 0 0 4em;
+}
+
+.nm-anime{
+    text-align: center;
+    font-size: 3em;
+    background-color: #3f3f3f transparent 10%;
+}
+
+.list-banner{
+    display:flex;
+    float:30%;
+    margin: 3em 5em 0 5em;
+    justify-content: space-between;
+}
+
+.banner-anime{
+    width: 14em;
+    height: 100%;
+    /* margin-left:10em;  */
+    border-radius: 5%;
+}
+
+.section-list{
+    display: block;
+    padding-top: 3%;
+}
+
+.player{
+    display:list-item;
+    text-align: center;
+    margin-top: 6%;
+}
+
+footer{
+    background-image: linear-gradient(to top, transparent 0%, #0b011e 90%), url(/img/Tanjiro\ moon\ background.png);
+    background-size: 100%;
+    background-position: center;
+    min-height: 24em;
+    list-style: none;
+}
